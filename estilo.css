@@ -29,7 +29,7 @@ h1 {
     height: 137px;
     padding-top: 10px;
     background: black;
-    display: inline-block;
+    display: flex;
 }
 
 #Logo{
