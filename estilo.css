@@ -9,30 +9,26 @@ main{
 h1{
 	color: white;
 	text-align: center;
-	font-size: 40px;
-	padding-top: 10px;
-}
-#h1Cont{
-	text-align: center;
-	width: relative;
+	font-size: 60px;
 	padding-top: 10px;
 }
 #logoFlamengo{
 	margin: 0px;
 	padding-left: 10px;
 	display: flex;
+	width: 60%;
+	height: auto;
 }
 #logoCont{
 	top: 5px;
 	height: 100px;
 	float: left;
 	position: absolute;
-}
-#headCont{
-	height: 120px;
+	max-width: 200px;
 }
 header{
-	height: 130px;
+	margin-top: -40px;
+	height: 90px;
 	background: darkred;
 	display: block;
 }
@@ -41,9 +37,13 @@ nav{
 	padding-bottom: 10px;
 	color: white;
 	font-size: 22px;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	max-width: 400px;
 	height: 30px;
 	text-align: center;
+	background-color: darkred;
 }
 #content{
 	color: white;
@@ -64,12 +64,12 @@ a:visited {
 	text-decoration: none;
 }
 a:hover {
-	color: darkred;
+	color: #f4c32e;
 	background-color: transparent;
 	text-decoration: none;
 }
 a:active {
-	color: darkred;
+	color: #f4c32e;
 	background-color: transparent;
 	text-decoration: none;
 }
